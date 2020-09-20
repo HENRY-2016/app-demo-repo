@@ -11,3 +11,5 @@ cordova.getAppVersion.getAppVersionCode ( function (vercode) {alert(vercode)})
 }
 
 console.log("weinre debuging...")
+
+function test (){alert("Hellow henry...")}

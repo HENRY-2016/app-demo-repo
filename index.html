@@ -10,8 +10,9 @@
 <body >
     <center>
         <p>Cordova AppVersion plugin API</p><br>
+        <button onclick=" test ()" >test()</button><br><br>
         <button onclick=" ShowAppName ()" >getAppName()</button><br><br>
-        <button onclick=" ShowAppName ()" >getVersionCode()</button><br><br>
+        <button onclick="cordova.getAppVersion.getAppVersionCode ( function (vercode) {alert(vercode)})" >getVersionCode()</button><br><br>
     </center>
 </body>
 </html>
