@@ -9,3 +9,5 @@ function  ShowAppVersion ()
 {
 cordova.getAppVersion.getAppVersionCode ( function (vercode) {alert(vercode)})
 }
+
+console.log("weinre debuging...")
